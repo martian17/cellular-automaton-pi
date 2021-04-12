@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head><title>default</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calculating pi using rule 30 (cellular automaton)</h1>
+    <div id="display"></div>
+    <div id="sd"></div>
+    <div id="et"></div>
+    <div>
+        <div class="ib">
+            <h2>Rule 30 view</h2>
+            <canvas id="canvas"></canvas>
+        </div>
+        <div class="ib">
+            <h2>Rule 30 pixel length distribution*</h2>
+            <canvas id="canvas2"></canvas>
+        </div>
+    </div>
+    <span>* length 5000, accelerated 10 times</span><br>
+    <a target="_blank" href="https://en.wikipedia.org/wiki/Rule_30">Details (Wikipedia)</a><br>
+    <a target="_blank" href="https://en.wikipedia.org/wiki/Normal_distribution">Normmal Distribution</a><br>
+    <a target="_blank" href="https://en.wikipedia.org/wiki/Entropy_(information_theory)">Entropy</a><br>
+    <a target="_blank" href="https://codepen.io/MartianLord/full/dyNdvKG">Demo</a><br>
+    <a target="_blank" href="https://github.com/martian17/pendulum-pi">Github</a><br>
+    <a target="_blank" id="github" href="https://github.com/martian17/pendulum-pi">Fork me on Github</a>
+    <script src="main.js"></script>
+</body>
